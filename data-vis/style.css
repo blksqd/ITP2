@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    background: black;
+}
+
+.menu-item {
+    width: 180px;
+    height: 25px;
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.hover {
+    box-shadow: 4px 4px 8px 4px rgba(255, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selected {
+    background: rgb(114, 130, 140, 0.5);
+}
+
+.menu-item {
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+    color: crimson;
+    border-color: crimson;
+}
+
+.container {
+    margin-top: 70px;
+    padding: 2%;
+}
+
+.dropdown {
+    max-height: 25px;
+}
