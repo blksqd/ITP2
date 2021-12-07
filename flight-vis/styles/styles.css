@@ -1,0 +1,64 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: black;
+}
+
+.wrapper {
+    width: 1100px;
+    height: 600px;
+    align-items: center;
+}
+
+.menu-container {
+    float: left;
+    width: 17%;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 3%;
+    border-right-style: solid;
+    border-left-color: black;
+    border-width: 1px;
+    background-color: black;
+}
+
+.vis-container {
+    float: left;
+    width: 60%;
+    height: 50%;
+    padding-left: 10px;
+    margin-top: clamp(1rem, 4rem, 3rem);
+    align-items: auto;
+}
+
+.btn {
+    margin-left: 1.5rem;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: crimson;
+    background-color: transparent;
+    min-width: 150px;
+    transition: 1s;
+    color: white;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    border-color: blue;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+}
+
+.dropdown {
+    transition: 1s;
+    margin-left: 4rem;
+    width: 150px;
+    height: 30px;
+}
+
+.dropdown:hover {
+    background-color: crimson;
+    color: white;
+}
